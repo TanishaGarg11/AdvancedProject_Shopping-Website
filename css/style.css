@@ -1,0 +1,1134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container {
+    height: 70vh;
+}
+
+.loginbtn {
+    height: 45px;
+    width: 200px;
+    align-self: center;
+    background-image: linear-gradient(to right, rgb(9, 228, 235), rgb(156, 9, 156));
+    color: white;
+    margin-left: 30px;
+    margin: auto;
+
+}
+
+.input-group {
+    width: 300px;
+    height: 55px;
+    border: 2px solid rgb(212, 191, 191);
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin-top: 0%;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* header Css */
+
+.header {
+    height: 60px;
+
+    background-color: #fcfdff;
+}
+.header .col-6 .input-group
+{
+   width: 450px;
+margin: auto;
+
+}
+.header .col-4 .cart{
+  margin: auto;
+}
+.brandname img {
+    height: 85px;
+    position: relative;
+    bottom: 15px;
+
+}
+.shopcart
+
+{
+    display: flex;
+    
+}
+.cart #cartamount{
+   position: absolute;
+   top:3px;
+   width:21px;
+   height: 25px;
+   padding-top: 1px;
+padding-left:5px;
+  background-color: rgb(44, 44, 247);
+  color:white;
+ border-radius:  50%;  
+ font-weight: 300px;
+ box-sizing: border-box;  
+}
+ .headingcart #cartAmount
+ {
+    position: absolute;
+    top:3px;
+    width:21px;
+    height: 25px;
+    padding-top: 1px;
+ padding-left:6px;
+ font-weight: bolder;
+   background-color: rgb(44, 44, 247);
+   color:white;
+  border-radius:  50%;  
+  box-sizing: border-box;  
+ }
+.navbar-nav {
+
+    text-align: right;
+}
+
+header .navbar-toggler-icon:focus {
+    box-shadow: none;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+/* Main section */
+.home .home-banner-1,
+.home .home-banner-2,
+.home .home-banner-3,
+.home .home-banner-4,
+.home .home-banner-5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 640px;
+
+}
+
+.home .home-banner-1 {
+    background-image: url(/images/carousel-img.jpg);
+}
+
+.home .home-banner-2 {
+    background-image: url(/images/carousel\ img-2.jpg);
+    opacity: 0.5;
+}
+
+.home .home-banner-3 {
+    background-image: url(/images/carousel\ -img3.jpg);
+    opacity: 1;
+}
+
+.home .home-banner-4 {
+    background-image: url(/images/carousel-img4.jpg);
+}
+
+
+
+.home .home-banner .home-banner-text {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+
+
+}
+
+.home .home-banner .home-banner-text h1 {
+    font-size: 4rem;
+}
+
+.home .home-banner .home-banner-text h2 {
+    color: rgb(251, 8, 8);
+    font-size: 2.5rem;
+}
+
+.home .home-banner .home-banner-text a {
+    height: 55px;
+    width: 150px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.carousel-inner {
+    height: 650px;
+}
+.carousel-control-prev-icon{
+   width:80px;
+   height:50px;
+   outline: black;
+background-color: rgb(247, 102, 247);
+      position: relative;
+      right:40px;
+      bottom: 50px;
+}
+      .carousel-control-next-icon{
+        width:80px;
+        height:50px;
+        outline:none;
+  background-color: rgb(247, 102, 247)  ;
+           position: relative;
+          left:40px;
+           bottom: 50px;
+     
+}
+.carousel-control-prev{
+ background-color: transparent;
+}
+
+/* OFFERS CSS */
+.offers .offersection {
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.offers {
+
+    height: 780px;
+    margin-bottom: 10px;
+    overflow: auto;
+
+}
+
+
+.offers .container .row a:hover {
+    color: blue;
+}
+
+.offers .offer-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.65);
+
+}
+
+.offers .offer-box .offer-info {
+    position: absolute;
+    top: 17%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    transition: all 250ms ease-out;
+    align-items: center;
+}
+
+.offers .offer-info .heading {
+
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-bottom: 0%;
+
+}
+
+.offers .offer-info .offer-title-1 {
+    line-height: 2px;
+    position: relative;
+    bottom: 20px;
+    color: rgb(201, 191, 191);
+    letter-spacing: 2px;
+
+}
+
+.offers .offer-info .btn {
+    border-color: #e91d1d;
+    color: white;
+}
+
+
+#products .card {
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.card {
+    height:380px;
+    width: 270px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.card img {
+    height:200px;
+    
+}
+
+.card .card-body .star .fa-star.active {
+    color: red;
+}
+
+/* PRODUCTS CSS */
+#products {
+    height: 230vh;
+}
+
+#products .discount img {
+    height: 380px;
+    width: 750px;
+    display: block;
+    margin: auto;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+
+
+}
+
+#products .discount::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 2;
+    cursor: pointer;
+}
+
+#products .discount:hover img {
+    transform: scale(0.95);
+
+}
+
+
+#products .up_to_content h2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+
+    font-size: 2.5rem;
+    color: #e91d1d;
+}
+
+#products .up_to_content img {
+    position: absolute;
+    top: 0%;
+    right: 70%;
+
+}
+/* Testimonials CSS */
+#testimonials
+{
+    margin-top: 0%;
+}
+#testimonials .card {
+    height: 320px;
+    width: 280px;
+    border-radius: 5px;
+
+}
+
+#testimonials .slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.slide-content {
+    margin: 0 40px;
+}
+
+#testimonials .card-image img {
+
+    height: 120px;
+    width: 150px;
+
+}
+
+#testimonials .card-image img {
+    position: absolute;
+    top: -40px;
+    left: 43%;
+    border-radius: 50%;
+    border: 5px solid rgb(234, 234, 237);
+
+
+}
+
+#testimonials .container h2::after {
+    content: '';
+    background: #e91d1d;
+    display: block;
+    width: 170px;
+    height: 3px;
+    margin-top: 4px;
+    margin: auto;
+
+}
+
+#testimonials .card .card-body .ratings i {
+    color: rgb(255, 255, 0);
+}
+/* CONTACT SECTION CSS */
+#contact {
+    margin-top: 65px;
+}
+
+#contact h2::after {
+    content: '';
+    display: block;
+    width: 180px;
+    height: 3px;
+    background: #960404;
+    text-align: center;
+    margin: auto;
+    margin-top: 3px;
+}
+
+input[type=email] {
+    height: 40px;
+    border-radius: 5px;
+
+    border-width: 3px;
+}
+
+.form-group .btn {
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    height: 45px;
+}
+/* FOOTER CSS */
+footer {
+    background-color: #212b37;
+    height: 300px;
+}
+
+footer .row {
+    /* border: 2px solid white; */
+    height: 300px;
+    position: relative;
+    top: 20px;
+
+}
+
+
+
+.sitemaplogo img {
+    height: 60px;
+    
+    padding-left: 0%;
+    background-color: rgb(162, 156, 159);
+}
+
+.heading {
+    font-size: 18px;
+    position: relative;
+    bottom: 30px;
+    margin-left: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.copyright {
+    height: 150px;
+}
+
+.policies {
+    margin-top: 40px;
+    margin-left: 20px;
+    color: white;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 50px;
+}
+#womenwears
+{
+  margin-top:90px;
+    height:300px;
+    
+    /* border:2px solid black; */
+   
+}
+#womenwears .women .row{
+    margin: auto;
+}
+#womenwears .container
+{ 
+    
+     margin: auto;
+}
+
+
+ #kurtas .productlist{
+    display: block;
+
+    height: 380px;
+    width:270px;
+    margin: auto;
+
+     margin-bottom: 20px;
+  
+} 
+.productlist 
+{
+    height: 300px;
+    width: 250px;
+    display: flex;
+  border-radius: 5px;
+
+}
+
+
+#kurtas .productlist img{
+  
+   height:200px;
+   display: block;
+   margin: auto;
+   margin-top: 5px;
+}
+
+#kurtas .productlist .card-body .card-title:hover
+{
+    color:rgb(173, 69, 69);
+}
+#kurtas .productlist .card-body .btn{
+    border-radius:10px;
+    width:120px;
+    position: relative;
+    left:60px;
+    margin-top:2px;
+     
+} 
+#top .productlist{
+    display: block;
+   height: 400px;
+    width:270px;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  
+}
+#top .productlist  img{
+  
+    height:200px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+ }
+ #top .productlist .card-body .card-title:hover
+{
+    color:rgb(173, 69, 69);
+}
+#top .productlist .card-body .btn{
+    border-radius:10px;
+    width:120px;
+    position: relative;
+
+    left:60px;
+    margin-top:2px;
+  
+}
+#sarees .productlist {
+display: block;
+   height: 380px;
+    width:270px;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#sarees .productlist  img{
+  
+    height:200px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+ }
+ #sarees .productlist .card-body .card-title:hover
+{
+    color:rgb(173, 69, 69);
+}
+#sarees .productlist .card-body .btn{
+    border-radius:10px;
+    width:120px;
+    position: relative;
+    left:60px;
+    margin-top:2px;
+    
+}
+#footwear .row{
+    width: 950px;
+   
+  margin: auto;
+   
+}
+
+#footwear .productlist {
+    display: block;
+    margin: auto;
+       height: 400px;
+        width:270px;
+       
+        /* margin-left: 70px; */
+        margin-bottom: 10px;
+    }
+    #footwear .productlist  img{
+      
+        height:200px;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+     }
+     #footwear .productlist .card-body .card-title:hover
+    {
+        color:rgb(173, 69, 69);
+    }
+    #footwear .productlist .card-body .btn{
+        border-radius:10px;
+        width:120px;
+        margin: auto;
+       position: relative;
+       left:60px;
+        margin-top:2px;
+      
+    }
+    #jewellary .row{
+        width: 950px;
+       
+        margin: auto;
+
+    }
+    
+    #jewellary .productlist {
+        display: block;
+        margin: auto;
+           height: 380px;
+            width:270px;
+           
+            /* margin-left: 70px; */
+            margin-bottom: 10px;
+        }
+        #jewellary .productlist  img{
+          
+            height:200px;
+            display: block;
+            margin: auto;
+            margin-top: 5px;
+         }
+         #jewellary .productlist .card-body .card-title:hover
+        {
+            color:rgb(173, 69, 69);
+        }
+        #jewellary .productlist .card-body .btn{
+            border-radius:10px;
+            width:120px;
+            position: relative;
+            left:60px;
+            margin-top:3px;
+        }
+        .items .row
+        {
+            margin: auto;
+        }
+        #clothing .row{
+            margin: auto;
+        }
+        .items .card{
+            display: block;
+        
+            height: 380px;
+            width:270px;
+            margin: auto;
+            
+            margin-bottom: 10px;
+          
+        }
+        .items  img{
+          
+           height:200px;
+           display: block;
+           margin: auto;
+           margin-top: 5px;
+        }
+        .items  .card-body .card-title:hover
+        {
+            color:rgb(173, 69, 69);
+        }
+        .items .card-body .btn{
+          border-radius:10px;
+            width:120px;
+            position: relative;
+            left: 60px;
+            margin-top:2px;
+            
+        }
+        #trousers .row{
+            margin: auto;
+        }
+        #trousers .productlist{
+            display: block;
+        
+            height: 380px;
+            width:270px;
+            margin: auto;
+        
+            margin-bottom: 10px;
+          
+        }
+        #trousers .productlist  img{
+          
+           height:200px;
+           display: block;
+           margin: auto;
+           margin-top: 5px;
+        }
+        #trousers .productlist .card-body .card-title:hover
+        {
+            color:rgb(173, 69, 69);
+        }
+        #trousers   .productlist .card-body .btn{
+            border-radius:10px;
+            width:120px;
+            position: relative;
+            left:60px;
+            margin-top:2px;
+            
+        }
+        #sunglasses .row{
+            margin: auto;
+        }
+        #sunglasses .productlist{
+            display: block;
+        
+            height: 400px;
+            width:250px;
+            margin: auto;
+           
+            margin-bottom: 10px;
+          
+        }
+     
+        #sunglasses .productlist img{
+          
+           height: 160px;
+           display: block;
+           margin: auto;
+           margin-top: 5px;
+          
+        }
+        #sunglasses .productlist .card-body .card-title:hover
+        {
+            color:rgb(173, 69, 69);
+        }
+        #sunglasses .productlist .card-body .btn{
+            border-radius:10px;
+            width:120px;
+            position: relative;
+            left:60px;
+            margin-top:2px;
+           
+        }
+        #watches .row{
+            margin: auto;
+        }
+        #watches .productlist{
+            display: block;
+        
+            height: 400px;
+            width:250px;
+            margin: auto;
+           
+            margin-bottom: 10px;
+           
+          
+        }
+     
+        #watches .productlist  img{
+          
+           height: 150px;
+           display: block;
+           margin: auto;
+           margin-top: 5px;
+          
+        }
+        #watches .productlist .card-body .card-title:hover
+        {
+            color:rgb(173, 69, 69);
+        }
+        #watches .productlist .card-body .btn{
+            border-radius:10px;
+            width:120px;
+            position: relative;
+            left:60px;
+            margin-top:2px;
+             
+        }
+        #suitcases .row{
+            margin: auto;
+        }
+        #suitcases .productlist{
+            display: block;
+        height:400px;
+            width:250px;
+            margin: auto;
+            
+            margin-bottom: 10px;
+           
+          
+        }
+     
+        #backpacks .row{
+            margin: auto;
+        }
+
+        #backpacks .productlist img{
+          
+           height: 150px;
+           display: block;
+           margin: auto;
+           margin-top: 5px;
+          
+        }
+        #backpacks .productlist .card-body .card-title:hover
+        {
+            color:rgb(173, 69, 69);
+        }
+        #backpacks .productlist .card-body .btn{
+            border-radius:10px;
+            width:120px;
+            position: relative;
+            left:60px;
+            margin-top:2px;
+            
+        }
+        #wallets .row{
+            margin: auto;
+        }
+        #wallets .productlist {
+            display:block;
+            margin: auto;
+               height: 400px;
+                width:250px;
+              
+             
+                margin-bottom: 10px;
+            }
+            #wallets .productlist  img{
+              
+                height:200px;
+                display: block;
+                margin: auto;
+                margin-top: 5px;
+             }
+             #wallets .productlist .card-body .card-title:hover
+            {
+                color:rgb(173, 69, 69);
+            }
+            #wallets .productlist .card-body .btn{
+                border-radius:10px;
+                width:120px;
+                position: relative;
+                left:60px;
+                margin-top:2px;
+                
+            }
+            .kidswears .row{
+                margin: auto;
+            }
+           .kidswears .productlist {
+                display:block;
+                margin: auto;
+                   height: 400px;
+                    width:250px;
+                  
+                    
+                    margin-bottom: 10px;
+                }
+               .kidswears .productlist  img{
+                  
+                    height:200px;
+                    display: block;
+                    margin: auto;
+                    margin-top: 5px;
+                 }
+                 .kidswears .card-body .card-title:hover
+                {
+                    color:rgb(173, 69, 69);
+                }
+                .kidswears .card .card-body .btn{
+                    border-radius:10px;
+                    width:120px;
+                    position: relative;
+                    left:60px;
+                    margin-top:2px;
+                  
+                }
+                .card .card-body .card-text .fa-indian-rupee-sign{
+                    position: absolute;
+                   bottom:88px  ;
+                   left: 28px;
+                   font-size: small ;
+
+                }
+           
+             
+               
+   
+/* Contact Page CSS */
+.queries
+{
+    margin-top: 100px;
+    background-color: #d8fcf3; 
+}
+.queries .contactheading
+{
+    width:100%;
+   
+    height:20vh;
+    justify-content: center;
+    align-items: center;
+}
+.contactheading h2{
+    padding-top: 10px;
+    
+}
+.contactheading h2::after
+{
+    
+    
+        content: '';
+        background: #e91d1d;
+        display: block;
+        width: 170px;
+       
+       
+        height: 3px;
+       
+        margin: auto;
+    
+    }
+
+.contactheading .links
+{
+   position: absolute;
+   left:43%;
+}
+.contactheading .links a
+{
+    font-size: 20px;
+    padding-right: 50px;
+   
+}
+.queries .container
+{
+    height:72vh;
+    width:40vw;
+   
+}
+.form
+{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #fff;
+   
+}
+.form h3{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.form .heading h3::after
+{
+    content: '';
+    border: none;
+    width:170px;
+    height:3px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    display: block;
+   
+}
+.form .heading
+{
+    display: flex;
+   justify-content: space-between;
+}
+
+.form input
+{
+    height: 50px;
+
+   margin-bottom: 15px;
+}
+.form input,textarea
+{
+    background-color: #f5f5f5f2;
+    border: none;
+    
+
+}
+
+.form textarea{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.queries .form .btn
+{
+   
+    color: white;
+   font-size: 20px;
+   border-radius: 10px;
+}
+.form .btn:hover
+{
+    transition: 0.5s;
+    
+}
+.productitems
+{
+   display: flex;
+   justify-content: center;
+  text-align: center;
+   flex-wrap: wrap;
+}
+.productitems .shop_item
+{
+   
+   margin:20px;
+   width: 20%;
+   box-shadow: rgba(194, 183, 183, 0.944) 0px 1px 2px;
+   border: 2px solid rgb(245, 243, 243);
+  }
+  .productitems .shop_item .info h5{
+    font-size:20px;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+  }
+  .productitems .shop_item img{
+  
+
+    height:200px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+  }
+  .productitems .shop_item .star{
+    line-height:-2px;
+  }
+  .productitems .shop_item p{
+    line-height: 2px;
+  }
+ .productitems button{
+    border-radius:5px;
+    width:120px;
+    height:38px;
+    margin-top:2px;
+    background-color:rgb(218, 45, 45);
+    border-color: transparent;
+    color: white;
+    margin-bottom: 10px;
+   margin-top: 10px;
+     
+} 
+.shopping_cart
+{
+    display: block;
+}
+    .cart_item
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.cart_item .cart_item_img
+{
+   
+    margin-top: 20px;
+    position: relative;
+    left:-60px;
+   
+}
+.cart_item h6{
+   /* margin-left:-70px; */
+   width:250px;
+}
+ .cart_item .cart_item_img img{
+    height:200px;
+            display: block;
+            margin: auto;
+            margin-top: 5px;
+            margin-left: 20px;
+}
+.cart_item .quantity 
+{
+  position: relative;
+  left:-18px;
+   
+    width:100px;
+}
+.cart_item .quantity i{
+  
+    height:20px;
+    width:30px;
+    text-align: center;
+}
+.cart_item .quantity span{
+ 
+    height:10px;
+    width:30px;
+  align-items: center;
+  
+}
+.cart_item p
+{
+    position: relative;
+    left:-20px;
+}
+.cart_item button
+{
+    height:38px;
+    background-color: rgb(196, 23, 23);
+    color: white;
+    border-color: transparent;
+    font-weight: bolder;
+    position: relative;
+    top:-10px;
+    left:5px;
+} 
+.checkout h2{
+    margin-top: 60px;
+}

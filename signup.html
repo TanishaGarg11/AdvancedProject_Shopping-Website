@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <style>
+       
+        .container
+        {
+            margin-top: 50px;
+            width:400px;
+            height:50vh;
+          
+        }
+    .row   .input-fields
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    }
+
+        .input-fields input
+        
+    {
+        width:19%;
+        height:70px;
+        border-radius: 15px;
+        padding: 10px 30px;
+        font-weight: bolder;
+        font-size: 17spx;
+        
+    }
+        input:focus
+        {
+            outline: 1px solid rgb(79, 79, 232);
+        }
+ input::-webkit-inner-spin-button,
+        input::-webkit-outer-spin-button
+        {
+            -webkit-appearance: none;
+
+            margin: 0%;
+        }
+        .otp_verify .active
+        {
+            background-color: blue;
+        }
+    </style>
+    <title>Shopping Website-Enjoy and buy on minimum price.</title>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+</head>
+<body>
+   <div class="container  border-dark rounded shadow-lg">
+   <div class="row justify-content-center align-items-center lead fw-bold pt-3">
+ OTP Verification
+   </div>
+ 
+   
+   <div class="row justify-content-center align-items-center  pt-3">
+ <p> Enter the OTP sent to your <span id="mobile">(000) 000-0000</span></p>
+   </div>
+   <div class="row">
+   <p class="text-center fw-bold text-primary">
+    OTP will expire in <span id="expire">30</span>s </p>
+   </div>
+    <div class="row">
+        <div class="input-fields">
+       <input type="number" />
+       <input type="number" disabled>
+       <input type="number" disabled>
+       <input type="number" disabled>
+    </div>
+    </div>
+    <form  name="form" action="home.html" >
+<div class="button mt-4 text-center ">
+    <button  class="btn otp_verify btn-md  btn-primary  text-light fw-bold rounded-2 " type="submit" > Verify OTP </button>
+    <br>
+</form>
+    <p> Didn't receive code ? 
+    <a href="javascript:void(0)" id="request" onclick="OTPgenerator()">Resend the code </a>
+    </p>
+</div>
+   </div>
+
+ <script src="/js/otp.js"></script>
+</body>
+</html>

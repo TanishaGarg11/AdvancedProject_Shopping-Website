@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- For dropdown -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Font awesome icon reference link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Jquery reference link -->
+    <script src="jquery-3.7.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="fixed-top">
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="brandname">
+                            <img src="/images/large_perfecther.png">
+                        </div>
+
+                    </div>
+                    <div class="col-4 ">
+                        <form class="d-flex" role="search">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text mt-2" style="font-size:20px;" id="basic-addon1"><i
+                                            class="fa-solid fa-magnifying-glass"></i></span>
+                                </div>
+
+                                <input type="text" name="search" id="search" class="form-control"
+                                    placeholder="Type here to search anything" aria-describedby="basic-addon1">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-4 mt-2 text-sm-start text-lg-center border-primary">
+                        <button class="btn btn-large" style="font-weight: bolder;"><i class="fa-regular fa-user"
+                                style="font-size: 25px;"></i> &nbsp; Sign in or create an account</button>
+                    </div>
+                   
+                </div>
+
+            </div>
+        </div>
+        <!-- Header section ends here -->
+
+
+        <!-- Naviagtion bar starts here -->
+        <nav class="navbar  navbar-expand-lg shadow bg-body-tertiary navbar-light"
+            style="background-color: rgb(216, 75, 122);">
+            <div class="container-fluid ">
+
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold" style="font-size:17px;">
+                        <li class="nav-item ms-5 me-3">
+                            <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="womenwears.html">Women wears</a></li>
+                                <li><a class="dropdown-item " href="menwears.html">Men wears</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="kidswear.html">Kids wears</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item  me-3">
+                            <a class="nav-link active text-light" aria-current="page" href="">Blog</a>
+                          </li>
+
+                        <li class="nav-item me-3">
+                            <a class="nav-link text-light" aria-disabled="true" href="contact.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <br>
+
+    <section id="womenwears" class="position-relative">
+        <div class="container-fluid">
+            <div class="row border-dark text-center">
+                <div class="col">
+                    <img src="/images/images (1).jpeg" style="height:90px;margin-left: 0%;">
+                </div>
+                <div class="col-3">
+
+                </div>
+                <div class="col-2">
+                    <a href="womenwears.html" class="text-decoration-none text-dark">Women</a>
+                
+                <hr style="width: 70px; height:3px;background: red;position: relative;left: 60px;">
+                </div>
+
+                <div class="col-2">
+                    <a href="menwears.html" class="text-decoration-none text-dark">Men</a>
+
+                <hr style="width: 70px; height:3px;background: red;position: relative;left: 60px;">
+                </div>
+                <div class="col-2">
+                    <a href="kidswear.html" class="text-decoration-none text-dark">Kids</a>
+                
+                <hr style="width: 70px; height:3px;background: red;position: relative;left: 60px;">
+                </div>  
+               
+
+            </div>
+            <hr>
+            <div class="women">
+                <div class="container">
+                    <div class="row d-flex overflow-auto justify-content-center">
+
+                        <div class="col-lg-2 col-md-3 col-sm-6 mb-md-3">
+                         <a href="#clothing">   <img src="/images/menwear img-1.png" style="height:150px;"></a>
+                            <p class="text-center fw-bold"> <a href="#clothing" class="text-decoration-none text-dark"> Clothes</a></p>
+                        </div>
+                        <div class="col-lg-2  col-sm-3 col-sm-6  mb-md-3">
+                         <a href="#trousers">  <img src="/images/menwear img-2.png" style="height: 150px;"> </a>
+                            <p class="text-center fw-bold"><a href="#trousers" class="text-decoration-none text-dark"> Trousers </a> </p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 mb-md-3">
+                         <a href="#sunglasses">  <img src="/images/menwear img-3.png" style="height: 150px;"> </a>
+                            <p class="text-center fw-bold"> <a href="#sunglasses" class="text-decoration-none text-dark">Sunglasses and Frames </a> </p>
+                        </div>
+                        <div class="col-lg-2  col-md-3 col-sm-6 mb-md-3 ">
+                         <a href="#watch">   <img src="/images/menwear img-4.png" style="height: 150px;"> </a>
+                            <p class="text-center fw-bold"> <a href="#watch" class="text-decoration-none text-dark"> Watches </a></p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6  mb-md-3">
+                           <a href="#backpacks"> <img src="/images/menwear img-5.png" style="height: 150px;"> </a>
+                            <p class="text-center fw-bold"> <a href="#backpacks" class="text-decoration-none text-dark"> Bags </a></p>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6  mb-md-3">
+                            <a href="#wallets"> <img src="/images/menwear img-6.png" style="height: 150px;"> </a>
+                             <p class="text-center fw-bold"> <a href="#wallets" class="text-decoration-none text-dark">Wallets </a></p>
+                         </div>
+                       
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br>
+    <br>
+    <!-- CLOTHING SECTION STARTS -->
+    <section id="clothing" class= "items">
+        <h3 class="text-center mb-4 text-success fw-bold"> <a name="clothing"> MENS CLOTHING </a> </h3>
+        <div class="row mt-2 justify-content-center">
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/clothing img-1.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">  Disney Merchandise Printed Super Loose Fit</h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>599 <sub class="text-secondary"> M.R.P<del> 1999 </del> (50%
+                                off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid  rounded cardimage" src="/images/clothing img-2.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Men's Cotton Hooded Sweatshirt</h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>1,199 <sub class="text-secondary"> M.R.P<del> 2,399 </del>
+                                (50% off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/clothing img-3.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Slim Fit Printed Cotton Blend Formal Shirt</h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>1,963 <sub class="text-secondary"> M.R.P<del> 4,299</del>
+                                (50% off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/clothing img-4.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Round Neck  Full Sleeve Regular Fit T-Shirt </h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>799 <sub class="text-secondary"> M.R.P<del> 1,299 </del>
+                                (50% off) </sub></h5>
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/clothing img-5.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">U.S. POLO ASSN.<br> Men Regular Fit T-Shirt</h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>599 <sub class="text-secondary"> M.R.P<del> 1,099 </del>
+                                (50% off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                   <img class="card-image-top img-fluid rounded" src="/images/clothing img-6.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">NOBERO <br>
+                            Mens Co-ord set
+                            </h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>599 <sub class="text-secondary"> M.R.P<del> 1,299 </del>
+                                (50% off) </sub></h5>
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow ">
+                    <img class="card-image-top img-fluid rounded" src="/images/clothing img-7.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Men's Black Silk Blend Kurta and Dhoti Pant Set</h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>999 <sub class="text-secondary"> M.R.P<del> 1,999 </del>
+                                (50% off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/clothing img-8.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold"> Men's Cotton Printed Straight Kurta </h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>524 <sub class="text-secondary"> M.R.P<del> $999 </del> (50%
+                                off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <hr>
+
+    <!-- TROUSERS section starts -->
+    <section id="trousers" class= "items">
+        <h3 class="text-center mb-4 mt-4 text-success fw-bold"> <a name="trousers"> TROUSERS  </a></h3>
+        <div class="row mt-2 justify-content-center">
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/trousers img-1.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Men Cargo Pants</h5>
+                        <br>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>599 <sub class="text-secondary"> M.R.P<del> 1999 </del> (50%
+                                off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card  productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/trousers img-2.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Men's Lycra Slim Fit Formal </h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>1,199 <sub class="text-secondary"> M.R.P<del> 2,399 </del>
+                                (50% off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/trousers img-3.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Formal Regular Fit Wrinkle Free  Trousers</h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>1,963 <sub class="text-secondary"> M.R.P<del> 4,299</del>
+                                (50% off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/trousers img-4.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Men's Eric Skinny Fit Low-Rise Jeans </h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>799 <sub class="text-secondary"> M.R.P<del> 1,299 </del>
+                                (50% off) </sub></h5>
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/trousers img-5.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Tarzan-11 White  Sneaker High-Neck Shoes</h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>599 <sub class="text-secondary"> M.R.P<del> 1,099 </del>
+                                (50% off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/trousers img-6.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Fausto Formal Shoes</h5>
+                        <br>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>599 <sub class="text-secondary"> M.R.P<del> 1,299 </del>
+                                (50% off) </sub></h5>
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow ">
+                    <img class="card-image-top img-fluid rounded" src="/images/trousers img-7.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">AADI Men's Black Mesh Casual Shoes </h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>999 <sub class="text-secondary"> M.R.P<del> 1,999 </del>
+                                (50% off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/trousers img-8.jpg ">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold"> 
+                            ShoeRise Men's Comfortable  Loafers  </h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>524 <sub class="text-secondary"> M.R.P<del> $999 </del> (50%
+                                off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <hr>
+    <!--SUNGLASSES Section starts here -->
+    <section id="sunglasses" class="items">
+        <h3 class="text-center mb-4 mt-4 text-success fw-bold"> <a name="sunglasses"> SUNGLASSES </a> </h3>
+        <div class="row mt-2 justify-content-center">
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/sunglasses img-1.jpg">
+                    <br>
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">UBON Wireless Smart Sunglasses </h5>
+                       
+                     
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;bottom:15px;left:5px"></i>599 <sub class="text-secondary"> M.R.P<del> 1999 </del> (50%
+                                off) </sub></h5>
+<br>
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/sunglasses img-2.jpg">
+                    <br>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Sunglasses for Men Aviator Metal Frame </h5>
+                        
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;bottom:15px;left:5px"> </i>1,199 <sub class="text-secondary"> M.R.P<del> 2,399 </del>
+                                (50% off) </sub></h5>
+<br>
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/sunglasses img-3.jpg">
+                    <br>
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold"> Unisex Aviator   Ultralight Spectacle Frames </h5>
+                    
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"style="position: relative;bottom:15px;left:5px"> </i>1,963 <sub class="text-secondary"> M.R.P<del> 4,299</del>
+                                (50% off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                       
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping" > </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/sunglasses img-4.jpg">
+                    <br>
+                  
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold"> CREEK Blue Light  anti-glare Retro Eyeglasses, </h5>
+                     
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;bottom:15px;left:5px"> </i>799 <sub class="text-secondary"> M.R.P<del> 1,299 </del>
+                                (50% off) </sub></h5>
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <br>
+                        <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            
+                        
+                       
+                </div>
+           
+
+    </section>
+<hr>
+
+    <!-- WATCH SECTION STARTS  -->
+    <section id="watches" class="items" >
+        <h3 class="text-center mb-4 mt-4 text-success fw-bold"> <a name="watch">TRENDY WATCHES </a> </h3>
+        <div class="row mt-2 justify-content-center">
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/watches img-1.jpg">
+                    <br>
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold"> Analog  Unisex's Watch-MTP-1129A-7B</h5>
+                        <br>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;bottom:15px;left:5px"> </i>599 <sub class="text-secondary"> M.R.P<del> 1999 </del> (50%
+                                off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/watches img-2.jpg">
+                    <br>
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Maxima Max Pro Knight Bluetooth Smartwatch </h5>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;bottom:15px;left:5px"> </i>1,199 <sub class="text-secondary"> M.R.P<del> 2,399 </del>
+                                (50% off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/watches img-3.jpg">
+                    <br>
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold"> Premium Gold Chain  Combo Pack of - 3</h5>
+                       <br>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;bottom:15px;left:5px"> </i>1,963 <sub class="text-secondary"> M.R.P<del> 4,299</del>
+                                (50% off) </sub></h5>
+
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  col-md-3 col-lg-3">
+                <div class="card productlist shadow">
+                    <img class="card-image-top img-fluid rounded" src="/images/watches img-4.jpg">
+                    <br>
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Leather Black Dial Analog Watch  </h5>
+                        <br>
+                        <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;bottom:15px;left:5px"> </i>799 <sub class="text-secondary"> M.R.P<del> 1,299 </del>
+                                (50% off) </sub></h5>
+                        <div class="star text-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                </div>
+            </div>
+          
+       
+                       
+            </div>
+           
+            </div>
+
+    </section>
+    <hr>
+<!-- BACKPACKS section starts -->
+<section id="backpacks" class="items" >
+    <h3 class="text-center mb-4 mt-4 text-success fw-bold"> <a name="backpacks">BACKPACKS </a> </h3>
+    <div class="row mt-2 justify-content-center">
+        <div class="col-sm-6  col-md-3 col-lg-3">
+            <div class="card productlist shadow">
+                <img class="card-image-top img-fluid rounded" src="/images/suitcase img-1.jpg">
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold">Valex Unisex School Bag/ 15.6 inch Laptop Backpack
+                       </h5>
+                    <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;left:2px;bottom:15px;"> </i>599 <sub class="text-secondary"> M.R.P<del> 1999 </del> (50%
+                            off) </sub></h5>
+
+                    <div class="star text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6  col-md-3 col-lg-3">
+            <div class="card productlist shadow">
+                <img class="card-image-top img-fluid rounded" src="/images/suitcase img-2.jpg">
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold">30 Litres Polyester Black laptop Backpack (D-BLACK) </h5>
+                    <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;left:2px;bottom:15px;"> </i>1,199 <sub class="text-secondary"> M.R.P<del> 2,399 </del>
+                            (50% off) </sub></h5>
+
+                    <div class="star text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6  col-md-3 col-lg-3">
+            <div class="card productlist shadow">
+                <img class="card-image-top img-fluid rounded" src="/images/suitcase img-3.jpg" style="width: 250px;">
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold">Polyester 23cms Duffle/Shoulder/Gym Bag </h5>
+                    <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;left:2px;bottom:15px;"> </i>1,963 <sub class="text-secondary"> M.R.P<del> 4,299</del>
+                            (50% off) </sub></h5>
+
+                    <div class="star text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6  col-md-3 col-lg-3">
+            <div class="card productlist shadow">
+                <img class="card-image-top img-fluid rounded" src="/images/suitcase img-4.jpg">
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold"> Arctic Hunter Slim Sling Bag for Men  Body Bag</h5>
+                    <br>
+                    <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;left:2px;bottom:15px;"> </i>799 <sub class="text-secondary"> M.R.P<del> 1,299 </del>
+                            (50% off) </sub></h5>
+                    <div class="star text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                </div>
+            </div>
+        </div>
+        
+
+                   
+               
+    </div>
+                   
+       
+
+</section>
+<br>
+<!-- WALLETS SECTION STARTS -->
+<section id="wallets" class="items" >
+    <h3 class="text-center mb-4 mt-4 text-success fw-bold"> <a name="wallets">SUITCASES AND WALLETS</a> </h3>
+    <div class="row mt-2 justify-content-center">
+        <div class="col-sm-6  col-md-3 col-lg-4">
+            <div class="card productlist  shadow">
+                <img class="card-image-top img-fluid rounded" src="/images/wallets img-1.jpg">
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold"> Pentagon  55 cms Small Size 8 Wheels Suitcase  with TSA Lock
+                        </h5>
+                    <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>599 <sub class="text-secondary"> M.R.P<del> 1999 </del> (50%
+                            off) </sub></h5>
+
+                    <div class="star text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>             </div>
+            </div>
+        </div>
+        <div class="col-sm-6  col-md-3 col-lg-4">
+            <div class="card productlist shadow">
+                <img class="card-image-top img-fluid rounded" src="/images/wallets img-2.jpg">
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold">Small Cabin Luggage Overnighte Cabin Trolley Luggage </h5>
+                    <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>1,199 <sub class="text-secondary"> M.R.P<del> 2,399 </del>
+                            (50% off) </sub></h5>
+
+                    <div class="star text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div id="liveAlertPlaceholder"></div>
+                    <button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6  col-md-3 col-lg-4">
+            <div class="card productlist shadow">
+                <img class="card-image-top img-fluid rounded" src="/images/wallets img-3.jpg">
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold">Brown Leather Wallet for Men I 8 Credit Card Slots </h5>
+                    <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>1,963 <sub class="text-secondary"> M.R.P<del> 4,299</del>
+                            (50% off) </sub></h5>
+
+                    <div class="star text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6  col-md-3 col-lg-4">
+            <div class="card productlist shadow">
+                <img class="card-image-top img-fluid rounded" src="/images/wallets img-4.jpg">
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold">6 Slot RFID Metal Credit Card Holder Wallet </h5>
+                    <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>799 <sub class="text-secondary"> M.R.P<del> 1,299 </del>
+                            (50% off) </sub></h5>
+                    <div class="star text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6  col-md-3 col-lg-4">
+            <div class="card productlist shadow">
+                <img class="card-image-top img-fluid rounded" src="/images/walets img-5.jpg">
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold">Black Men's Wallet (6) </h5>
+                    <br>
+                    <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign" style="position: relative;left:2px;bottom:15px;"> </i>599 <sub class="text-secondary"> M.R.P<del> 1,099 </del>
+                            (50% off) </sub></h5>
+
+                    <div class="star text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <br>
+
+                    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6  col-md-3 col-lg-4">
+            <div class="card productlist shadow">
+                <img class="card-image-top img-fluid rounded" src="/images/wallets img-6.jpg">
+                <div class="card-body">
+                    <h5 class="card-title text-center fw-bold">Waterproof Dust Proof Suitcase Cover Trolley Bag Cover with Zip </h5>
+                    <h5 class="card-text text-center "><i class="fa-solid fa-indian-rupee-sign"> </i>599 <sub class="text-secondary"> M.R.P<del> 1,299 </del>
+                            (50% off) </sub></h5>
+                    <div class="star text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star "></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-danger" id="liveAlertBtn">Add to <i class="fa-solid  fa-cart-shopping"> </i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+                   
+        </div>
+       
+        </div>
+
+</section>
+<footer>
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col">
+          <div class="sitemaplogo">
+            <img src="/images/large_perfecther.png">
+
+          </div>
+
+
+   <ul class="text-center mt-1 " style="margin-left: 90px; ">
+            <li><a class="link mt-1 fs-5" href="index.html">Home</a></li>
+          <li><a class="link mt-1 fs-5" href="contact.html">Contact</a></li>
+            <li> <a class="link  mt-1 fs-5" href="womenwears.html">Products</a></li>
+
+          </ul> 
+        </div>
+        <div class="col"> </div>
+        <div class="col"></div> 
+ <div class="col"></div>
+        
+      
+       
+          <div class="col-2 ">
+            <p class="policies"> Terms & Conditions | </p>
+          </div>
+          <div class="col-2">
+            <p class="policies">Privacy Policy | </p>
+          </div>
+          
+          <div class="col-4">
+           <p class="text-light mt-5  "> Copyright &copy; perfecther 2024,All Rights Reserved. </p>
+            <br> Designed by Tanisha
+          </div>
+        </div>
+      </div>
+    </div> 
+  </footer>
+  <!-- It ends here  -->
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+        <script src="/js/productsdata.js"></script>
+        <script src="/js/script.js"></script>
+    
+
+</body>
+</html>
